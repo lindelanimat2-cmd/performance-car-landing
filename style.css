@@ -1,0 +1,77 @@
+:root {
+  --bg-color: #0a0a0a;       /* dark background */
+  --text-main: #f5f5f5;      /* main font color */
+  --text-secondary: #555555; /* secondary text */
+  --accent-red: #8B0000;     /* blood red for highlights */
+  --accent-gold: #bfa24b;    /* gothic accent */
+  --dark-purple: #2e003e;    /* optional for sections */
+}
+
+
+html, body {
+    margin: 0;         
+    padding: 0;        
+    height: 100%;       
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+   
+}
+
+/* -------navigation------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    position: relative;
+}
+
+nav h1{
+    font-size: medium;
+}
+nav ul {
+    list-style: none;     
+    padding: 0;          
+    margin: 0;              
+    display: flex;       
+    gap: 20px;             
+}
+
+nav li a {
+    text-decoration: none;            
+}
+
+
+/* --------------------------hero------------------------ */
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+/* --------------------------about------------------------ */
+.about-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.footer{
+   display: flex;
+    flex-direction: row; 
+    gap:50px;
+}
+
+
+
+
+/* --------------------------work------------------------ */
+.work-contnet{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
